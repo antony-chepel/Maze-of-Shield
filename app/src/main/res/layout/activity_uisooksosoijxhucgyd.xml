@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mzshld"
+    tools:context=".reqws.lxllxock.Uisooksosoijxhucgyd">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:text="Try to find real egyptian treasure"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:textColor="@color/white"
+        android:text="You have limited time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/ixjzc"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/mzshld_it_1" />
+
+    <ImageView
+        android:id="@+id/aaskoaskoaskoji"
+        android:layout_width="150dp"
+        android:scaleType="centerCrop"
+        android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ixjzc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ixjzc"
+        app:srcCompat="@drawable/mzshld_it_2" />
+
+    <ImageView
+        android:id="@+id/xnjnxczjnczxjn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/ixjzc"
+        app:layout_constraintStart_toStartOf="@+id/ixjzc"
+        app:layout_constraintTop_toBottomOf="@+id/ixjzc"
+        app:srcCompat="@drawable/mzshld_it_3" />
+
+    <ImageView
+        android:id="@+id/qpqplqwlpq"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/xnjnxczjnczxjn"
+        app:layout_constraintEnd_toEndOf="@+id/aaskoaskoaskoji"
+        app:layout_constraintTop_toTopOf="@+id/xnjnxczjnczxjn"
+        app:srcCompat="@drawable/mzshld_it_4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:textColor="@color/white"
+        android:text="Choose and get egyptian treasure scores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xnjnxczjnczxjn" />
+
+    <TextView
+        android:id="@+id/xkzioxcjizijsjiajiaduh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textSize="25sp"
+        android:layout_marginBottom="50dp"
+        android:text="Time : 10 sec"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/isjaijdsijjiwdwdij"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/pr_mz_sh"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:text="Result"
+        android:alpha="0.8"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/xkzioxcjizijsjiajiaduh"
+        app:layout_constraintEnd_toStartOf="@+id/xkzioxcjizijsjiajiaduh"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/xkzioxcjizijsjiajiaduh"
+        app:layout_constraintVertical_bias="0.52" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_mzshld"
+    android:layout_height="match_parent"
+    tools:context=".vbcb.llxozks.Hbxbxzuhcgyygs">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mzshld_it_1" />
+
+    <TextView
+        android:id="@+id/cvuhfd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:text="It's not a real treasure,try more"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/cpcpcoxocxk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="23sp"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:text="You got 1500 golden scores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvuhfd" />
+
+    <Button
+        android:id="@+id/aokakoso"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/pr_mz_sh"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:text="Try again"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvuhfd"
+        app:layout_constraintVertical_bias="0.29000002" />
+
+    <Button
+        android:id="@+id/sokxkozkocjiijuhdfhu"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Quit"
+        android:textStyle="bold"
+        android:fontFamily="@font/fnt_mz_shld"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aokakoso" />
+</androidx.constraintlayout.widget.ConstraintLayout>

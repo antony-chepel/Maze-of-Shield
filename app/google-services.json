@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436299181823",
+    "project_id": "maze-of-shield",
+    "storage_bucket": "maze-of-shield.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436299181823:android:a347e4d8eb4f37884ba6ca",
+        "android_client_info": {
+          "package_name": "com.socialquantum.acityinta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436299181823-tvg8vtjv803rc126uvijkf488c3822pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6bRdkh23GLzu2FkPAlWyReWjKW3Pj4Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436299181823-tvg8vtjv803rc126uvijkf488c3822pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

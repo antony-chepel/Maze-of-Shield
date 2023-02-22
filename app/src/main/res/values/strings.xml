@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Maze of Shield</string>
+    <string name="fb_login_protocol_scheme">fb1246989245901905</string>
+    <string name="facebook_client_token">85c972bb34274f117cfc02f870eeb90f</string>
+    <string name="image_chooser">Pick Your Image</string>
+    <string name="facebook_app_id">1246989245901905</string>
+
+</resources>
